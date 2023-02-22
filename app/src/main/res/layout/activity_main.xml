@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xpel.manager.activity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uninstall and check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAddAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add account"
+        />
+
+    <Button
+        android:id="@+id/buttonCheckAccounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Accounts"
+        app:layout_constraintLeft_toRightOf="@id/buttonAddAccount"
+        app:layout_constraintBaseline_toBaselineOf="@id/buttonAddAccount"
+        />
+
+    <Button
+        android:id="@+id/buttonAddKeyStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add KeyStore"
+        app:layout_constraintTop_toBottomOf="@id/buttonAddAccount"
+        />
+
+    <Button
+        android:id="@+id/buttonCheckKeyStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check KeyStore"
+        app:layout_constraintLeft_toRightOf="@id/buttonAddKeyStore"
+        app:layout_constraintBaseline_toBaselineOf="@id/buttonAddKeyStore"
+        />
+
+
+    <Button
+        android:id="@+id/buttonAddKeyChain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add KeyChain"
+        app:layout_constraintTop_toBottomOf="@id/buttonAddKeyStore"
+        />
+
+    <Button
+        android:id="@+id/buttonCheckKeyChain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check KeyChain"
+        app:layout_constraintLeft_toRightOf="@id/buttonAddKeyChain"
+        app:layout_constraintBaseline_toBaselineOf="@id/buttonAddKeyChain"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

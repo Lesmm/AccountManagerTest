@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AccountManagerTest</string>
+    <string name="account_type">com.xpel.accounts</string>
+</resources>
